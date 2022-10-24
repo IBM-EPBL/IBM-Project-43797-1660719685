@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>LOAN PREDICTOR FORM</h2>
+        <p>Fill the form to predict</p>
+        <form action="/submit" method="post">
+            <div class="user-box">
+                <input type="text" name="" required="" onfocus="this.placeholder='Enter your name'"
+                    onblur="this.placeholder=''">
+                <label>Name</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="Loan_ID" required="" onfocus="this.placeholder='Enter your Loan ID'"
+                    onblur="this.placeholder=''">
+                <label>Loan ID</label>
+            </div>
+            <div class="user-box">
+                <input list="gender" type="data-list" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Enter your Gender'" onblur="this.placeholder=''">
+                <label>Gender</label>
+                <datalist id="gender" name="gender">
+                    <option value="Male"></option>
+                    <option value="female"></option>
+                </datalist>
+            </div>
+            <div class="user-box">
+                <input list="married" type="text" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Enter your Marital Status'" onblur="this.placeholder=''">
+                <label>Married</label>
+                <datalist id="married" name="married">
+                    <option value="yes"></option>
+                    <option value="no"></option>
+                </datalist>
+            </div>
+            <div class="user-box">
+                <input list="dep" type="text" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Enter your Dependents'" onblur="this.placeholder=''">
+                <label>Dependents</label>
+                <datalist id="dep" name="dep">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3+"></option>
+                </datalist>
+            </div>
+            <div class="user-box">
+                <input list="edu" type="text" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Enter your Educational Qualification'" onblur="this.placeholder=''">
+                <label>Education</label>
+                <datalist name="edu" id="edu">
+                    <option value="Graduate"></option>
+                    <option value="Non-Graduate"></option>
+                </datalist>
+            </div>
+            <div class="user-box">
+                <input list="emp" type="text" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Are you self employed?'" onblur="this.placeholder=''">
+                <label>Self Employed</label>
+                <datalist name="emp" id="emp">
+                    <option value="yes"></option>
+                    <option value="no"></option>
+                </datalist>
+            </div>
+            <div class="user-box">
+                <input type="number" name="" required="" onfocus="this.placeholder='Enter your Income in Dollars'"
+                    onblur="this.placeholder=''">
+                <label>Applicant Income</label>
+            </div>
+            <div class="user-box">
+                <input type="number" name="" required=""
+                    onfocus="this.placeholder='Enter your CO Applicant Income in Lakhs'" onblur="this.placeholder=''">
+                <label>CO Applicant Income</label>
+            </div>
+            <div class="user-box">
+                <input type="number" name="" required="" onfocus="this.placeholder='Enter your Loan Amount in Dollars'"
+                    onblur="this.placeholder=''">
+                <label>Loan Amount</label>
+            </div>
+            <div class="user-box">
+                <input type="number" name="" required=""
+                    onfocus="this.placeholder='Enter your Loan Amount term in days'" onblur="this.placeholder=''">
+                <label>Loan Amount Term</label>
+            </div>
+            <div class="user-box">
+                <input list="credit" type="text" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Enter your Credit History'" onblur="this.placeholder=''">
+                <label>Credit History</label>
+                <datalist name="credit" id="credit">
+                    <option value="yes"></option>
+                    <option value="no"></option>
+                </datalist>
+            </div>
+            <div class="user-box">
+                <input list="prop" type="text" name="" required="" onchange="resetIfInvalid(this);"
+                    onfocus="this.placeholder='Enter your area of the property'" onblur="this.placeholder=''">
+                <label>Property Area</label>
+                <datalist name="prop" id="prop">
+                    <option value="Urban"></option>
+                    <option value="Rural"></option>
+                    <option value="Semi-Rural"></option>
+                </datalist>
+            </div>
+
+            <div class="container">
+                <a href="submit.html">
+                    <button class="btn" data-hover="PREDICT">
+                        <div>SUBMIT</div>
+                    </button>
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    function resetIfInvalid(el) {
+        //just for beeing sure that nothing is done if no value selected
+        if (el.value == "")
+            return;
+        var options = el.list.options;
+        for (var i = 0; i < options.length; i++) {
+            if (el.value == options[i].value)
+                //option matches: work is done
+                return;
+        }
+        //no match was found: reset the value
+        el.value = "";
+    }
+</script>
+
+</html>
