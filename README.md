@@ -1,9 +1,9 @@
 # IBM-Project-43797-1660719685
-Smart Lender - Applicant Credibility Prediction for Loan Approval
+<h2>Smart Lender - Applicant Credibility Prediction for Loan Approval</h2>
 
 Team ID : <b>PNT2022TMID18010</b>
 
-Team Size : 4
+Team Size : <b>4</b>
 
 Team Leader : <b>Pranava Kailash S P</b>
 
