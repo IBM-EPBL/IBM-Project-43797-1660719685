@@ -26,8 +26,6 @@ The credit system managed by banks is one of the most important variables affect
 
 One of the most challenging challenges for any bank is predicting loan defaulters. However, by projecting loan defaulters, banks may surely limit their loss by lowering their non-profit assets, so that authorised loans can be recovered without any loss, and it can play a contributing aspect of the bank statement. This emphasises the need of researching loan approval prediction. Machine Learning algorithms are extremely important and useful in predicting this sort of data.
 
-We will employ classification techniques such as Decision tree, Random forest, KNN, and xgboost. We will use these methods to train and test the data. The best model from this set is chosen and stored in pkl format. We will be conducting flask integration and IBM deployment.
-
 ## Architecutre
 
 ![Architechture](https://cdn.discordapp.com/attachments/990646743483957248/1036888242160668692/Architechture.jpg)
