@@ -1,123 +1,100 @@
 # SMART LENDER - Applicant Credibility Prediction For Loan Approval
 
-## ASSIGNMENTS
+![Loan](https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2019/08/gettyimages-1050881944-612x612-e1565718161876.jpg)
 
-### Assignment - 1
+## Project Details
 
-### Basics of Python
+| Team ID | IBM-Project-43797-1660719685  |
+| :-------- | :------- | 
+| Domain | Applied Data Science  |
+| Project Name | SMART LENDER - Applicant Credibility Prediction For Loan Approval  |
 
-1. Split this string
-2. Use .format() to print the following string. 
-3. In this nest dictionary grab the word "hello"
-4. Numpy
-4.1 Create an array of 10 zeros?
-4.2 Create an array of 10 fives?
-5. Create an array of all the even integers from 20 to 35
-6. Create a 3x3 matrix with values ranging from 0 to 8
-7. Concatenate a and b. a = np.array([1, 2, 3]), b = np.array([4, 5, 6])
-Pandas
-8. Create a dataframe with 3 rows and 2 columns
-9. Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023
-10. Create 2D list to DataFrame lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
+## Team Members
 
-### Assignment-2
+| Team Member | Name    | Register Number |
+| :-------- | :------- | :------------------------- |
+| Team Leader | Pranava Kailash S P | 713319CS107 |
+| Team Member-1 | Dharshana R | 713319EC024 |
+| Team Member-2 | Monica V | 713319CS079 |
+| Team Member-3 | Keerthana S | 713319CS063 |
 
-### Data Visualization and Pre-processing
+## Problem Statement
 
-Perform Below Tasks to complete the assignment:-
+The credit system managed by banks is one of the most important variables affecting our country's economic and financial situation. Bank credit risk appraisal is a recognised technique in banks worldwide. "As we all know, credit risk evaluation is critical, and a number of methodologies are utilised to calculate risk level." Furthermore, credit risk is one of the financial community's primary functions.
 
-### Tasks:-
+One of the most challenging challenges for any bank is predicting loan defaulters. However, by projecting loan defaulters, banks may surely limit their loss by lowering their non-profit assets, so that authorised loans can be recovered without any loss, and it can play a contributing aspect of the bank statement. This emphasises the need of researching loan approval prediction. Machine Learning algorithms are extremely important and useful in predicting this sort of data.
 
-1. Download the dataset: Dataset
-2. Load the dataset.
-3. Perform Below Visualizations.
-● Univariate Analysis
-● Bi - Variate Analysis
-● Multi - Variate Analysis
-4. Perform descriptive statistics on the dataset.
-5. Handle the Missing values.
-6. Find the outliers and replace the outliers
-7. Check for Categorical columns and perform encoding.
-8. Split the data into dependent and independent variables.
-9. Scale the independent variables
-10. Split the data into training and testing
+## Architecture
 
-### Assignment-3
+![Architecture](https://cdn.discordapp.com/attachments/990646743483957248/1036888242160668692/Architechture.jpg)
 
-### Problem Statement: Abalone Age Prediction
 
-###Description:- Predicting the age of abalone from physical measurements. The age of abalone is
-determined by cutting the shell through the cone, staining it, and counting the number of rings through
-a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain,
-are used to predict age. Further information, such as weather patterns and location (hence food
-availability) may be required to solve the problem.
+## Used Technological Libraries
 
-### Attribute Information:
+*Web UI*
 
-Given is the attribute name, attribute type, measurement unit, and a brief description. The number of
-rings is the value to predict: either as a continuous value or as a classification problem.
-Name / Data Type / Measurement Unit / Description
-1- Sex / nominal / -- / M, F, and I (infant)
-2- Length / continuous / mm / Longest shell measurement
-3- Diameter / continuous / mm / perpendicular to length
-4- Height / continuous / mm / with meat in shell
-5- Whole weight / continuous / grams / whole abalone
-6- Shucked weight / continuous / grams / weight of meat
-7- Viscera weight / continuous / grams / gut weight (after bleeding)
-8- Shell weight / continuous / grams / after being dried
-9- Rings / integer / -- / +1.5 gives the age in years
+- Hyper Text Markup Language
+- Cascading Style Sheets
+- JavaScript 
 
-### Building a Regression Model
+*Integration*
 
-1. Download the dataset: Dataset
-2. Load the dataset into the tool.
-3. Perform Below Visualizations.
-∙ Univariate Analysis
-∙ Bi-Variate Analysis
-∙ Multi-Variate Analysis
-4. Perform descriptive statistics on the dataset.
-5. Check for Missing values and deal with them.
-6. Find the outliers and replace them outliers
-7. Check for Categorical columns and perform encoding. 8. Split the data
-into dependent and independent variables. 9. Scale the independent
-variables
-10. Split the data into training and testing
-11. Build the Model
-12. Train the Model
-13. Test the Model
-14. Measure the performance using Metrics.
+- Python Flask
 
-### Assignment-4
+*Model Building*
 
-### Problem Statement: Customer Segmentation Analysis
- 
-### Problem Statement
+- Pandas
+- Numpy
+- Scikit learn
 
-You own the mall and want to understand the customers who can quickly
-converge [Target Customers] so that the insight can be given to the
-marketing team and plan the strategy accordingly.
+## Assignments
 
-### Perform the below Tasks to complete the assignment:-
+- [Pranava Kailash S P](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Lead%20-%20Pranava%20Kailash)
+- [Dharshana R](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Member%201%20-%20Dharshana)
+- [Monica V](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Member%202%20%20-%20Monica)
+- [Keerthana S](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Member%203%20-%20Keerthana)
 
-Clustering the data and performing classification algorithms
-1. Download the dataset: Dataset
-2. Load the dataset into the tool.
-3. Perform Below Visualizations.
-∙ Univariate Analysis
-∙ Bi- Variate Analysis
-∙ Multi-Variate Analysis
-4. Perform descriptive statistics on the dataset.
-5. Check for Missing values and deal with them.
-6. Find the outliers and replace them outliers
-7. Check for Categorical columns and perform encoding.
-8. Scaling the data
-9. Perform any of the clustering algorithms
-10. Add the cluster data with the primary dataset
-11. Split the data into dependent and independent
-variables.
-12. Split the data into training and testing
-13. Build the Model
-14. Train the Model
-15. Test the Model
-16. Measure the performance using Evaluation Metrics.
+## Sprint
 
+- [Sprint 1](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%201)
+- [Sprint 2](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%202)
+- [Sprint 3](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%203)
+- [Sprint 4](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%204)
+
+## Demo Link
+
+Soon to be added
+
+## Project Report
+
+In progress
+
+## Running the Application
+
+Please install the required dependence on your Local Machine before running the [ibm_app.py](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/ibm_app.py)
+
+The required dependences are as follows:
+```
+
+pip install flask
+
+pip install numpy 
+
+pip install pickle
+
+pip install requests
+```
+
+Also make sure you have the [scale.pkl](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/scale.pkl) and [templates](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%204/templates) files, before your run the [ibm_app.py](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/ibm_app.py)
+
+
+## Contribution
+
+- Pranava Kailash - Model Building, Integration
+- Dharshana - Web UI, Integration
+- Monica, Keerthana - Literature Survey, Documentation
+
+## Authors
+
+- [Pranava Kailash S P](https://github.com/ripperpk)
+- [Dharshana R](https://github.com/Dharshana-R)
