@@ -22,11 +22,12 @@ Pandas
 
 ### Assignment-2
 
-###Data Visualization and Pre-processing
+### Data Visualization and Pre-processing
 
 Perform Below Tasks to complete the assignment:-
 
-###Tasks:-
+### Tasks:-
+
 1. Download the dataset: Dataset
 2. Load the dataset.
 3. Perform Below Visualizations.
@@ -43,7 +44,7 @@ Perform Below Tasks to complete the assignment:-
 
 ### Assignment-3
 
-###Problem Statement: Abalone Age Prediction
+### Problem Statement: Abalone Age Prediction
 
 ###Description:- Predicting the age of abalone from physical measurements. The age of abalone is
 determined by cutting the shell through the cone, staining it, and counting the number of rings through
@@ -51,7 +52,7 @@ a microscope -- a boring and time-consuming task. Other measurements, which are 
 are used to predict age. Further information, such as weather patterns and location (hence food
 availability) may be required to solve the problem.
 
-###Attribute Information:
+### Attribute Information:
 
 Given is the attribute name, attribute type, measurement unit, and a brief description. The number of
 rings is the value to predict: either as a continuous value or as a classification problem.
@@ -66,7 +67,7 @@ Name / Data Type / Measurement Unit / Description
 8- Shell weight / continuous / grams / after being dried
 9- Rings / integer / -- / +1.5 gives the age in years
 
-###Building a Regression Model
+### Building a Regression Model
 
 1. Download the dataset: Dataset
 2. Load the dataset into the tool.
@@ -86,17 +87,17 @@ variables
 13. Test the Model
 14. Measure the performance using Metrics.
 
-###Assignment-4
+### Assignment-4
 
-###Problem Statement: Customer Segmentation Analysis
-
-###Problem Statement
+### Problem Statement: Customer Segmentation Analysis
+ 
+### Problem Statement
 
 You own the mall and want to understand the customers who can quickly
 converge [Target Customers] so that the insight can be given to the
 marketing team and plan the strategy accordingly.
 
-###Perform the below Tasks to complete the assignment:-
+### Perform the below Tasks to complete the assignment:-
 
 Clustering the data and performing classification algorithms
 1. Download the dataset: Dataset
