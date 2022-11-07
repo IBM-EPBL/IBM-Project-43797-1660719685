@@ -120,3 +120,10 @@ variables.
 14. Train the Model
 15. Test the Model
 16. Measure the performance using Evaluation Metrics.
+
+## ASSIGNMENT SUBMISSIONS:
+
+- [Pranava Kailash S P](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Lead%20-%20Pranava%20Kailash)
+- [Dharshana R](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Member%201%20-%20Dharshana)
+- [Monica V](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Member%202%20%20-%20Monica)
+- [Keerthana S](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Member%203%20-%20Keerthana)
