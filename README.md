@@ -1,8 +1,6 @@
-
-## IBM-Project-43797-1660719685
 # SMART LENDER - Applicant Credibility Prediction For Loan Approval
 
-
+![Architecture](https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2019/08/gettyimages-1050881944-612x612-e1565718161876.jpg)
 
 ## Project Details
 
@@ -48,6 +46,7 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 - Pandas
 - Numpy
 - Scikit learn
+
 ## Assignments
 
 - [Pranava Kailash S P](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Lead%20-%20Pranava%20Kailash)
@@ -61,7 +60,6 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 - [Sprint 2](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%202)
 - [Sprint 3](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%203)
 - [Sprint 4](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Project%20Development%20Phase/Sprint%204)
-
 
 ## Demo Link
 
