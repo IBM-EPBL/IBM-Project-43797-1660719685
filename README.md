@@ -91,7 +91,7 @@ Also make sure you have the [scale.pkl](https://github.com/IBM-EPBL/IBM-Project-
 
 - Pranava Kailash - Model Building, Integration
 - Dharshana - Web UI, Integration
-- Monica, Keerthana - Literature Survey
+- Monica, Keerthana - Literature Survey, Documentation
 
 ## Authors
 
