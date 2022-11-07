@@ -6,24 +6,26 @@
 
 ### Basics of Python
 
-### 1. Split this string
-### 2. Use .format() to print the following string. 
-### 3. In this nest dictionary grab the word "hello"
-### 4. Numpy
-### 4.1 Create an array of 10 zeros?
-### 4.2 Create an array of 10 fives?
-### 5. Create an array of all the even integers from 20 to 35
-### 6. Create a 3x3 matrix with values ranging from 0 to 8
-### 7. Concatenate a and b. a = np.array([1, 2, 3]), b = np.array([4, 5, 6])
-### Pandas
-### 8. Create a dataframe with 3 rows and 2 columns
-### 9. Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023
-### 10. Create 2D list to DataFrame lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
+1. Split this string
+2. Use .format() to print the following string. 
+3. In this nest dictionary grab the word "hello"
+4. Numpy
+4.1 Create an array of 10 zeros?
+4.2 Create an array of 10 fives?
+5. Create an array of all the even integers from 20 to 35
+6. Create a 3x3 matrix with values ranging from 0 to 8
+7. Concatenate a and b. a = np.array([1, 2, 3]), b = np.array([4, 5, 6])
+Pandas
+8. Create a dataframe with 3 rows and 2 columns
+9. Generate the series of dates from 1st Jan, 2023 to 10th Feb, 2023
+10. Create 2D list to DataFrame lists = [[1, 'aaa', 22], [2, 'bbb', 25], [3, 'ccc', 24]]
 
 ### Assignment-2
 
 ###Data Visualization and Pre-processing
+
 Perform Below Tasks to complete the assignment:-
+
 ###Tasks:-
 1. Download the dataset: Dataset
 2. Load the dataset.
@@ -42,12 +44,15 @@ Perform Below Tasks to complete the assignment:-
 ### Assignment-3
 
 ###Problem Statement: Abalone Age Prediction
+
 ###Description:- Predicting the age of abalone from physical measurements. The age of abalone is
 determined by cutting the shell through the cone, staining it, and counting the number of rings through
 a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain,
 are used to predict age. Further information, such as weather patterns and location (hence food
 availability) may be required to solve the problem.
+
 ###Attribute Information:
+
 Given is the attribute name, attribute type, measurement unit, and a brief description. The number of
 rings is the value to predict: either as a continuous value or as a classification problem.
 Name / Data Type / Measurement Unit / Description
@@ -60,7 +65,9 @@ Name / Data Type / Measurement Unit / Description
 7- Viscera weight / continuous / grams / gut weight (after bleeding)
 8- Shell weight / continuous / grams / after being dried
 9- Rings / integer / -- / +1.5 gives the age in years
+
 ###Building a Regression Model
+
 1. Download the dataset: Dataset
 2. Load the dataset into the tool.
 3. Perform Below Visualizations.
@@ -82,11 +89,15 @@ variables
 ###Assignment-4
 
 ###Problem Statement: Customer Segmentation Analysis
+
 ###Problem Statement
+
 You own the mall and want to understand the customers who can quickly
 converge [Target Customers] so that the insight can be given to the
 marketing team and plan the strategy accordingly.
+
 ###Perform the below Tasks to complete the assignment:-
+
 Clustering the data and performing classification algorithms
 1. Download the dataset: Dataset
 2. Load the dataset into the tool.
