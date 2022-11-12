@@ -27,7 +27,7 @@ Empathy maps are a straightforward, effective technique for developing knowledge
 
 ### Literature Survey
 
-A literature surey is a thorough overview of earlier studies on a subject. The literature review examines academic books, journals, and other materials that are pertinent to a particular field of study. For the assignment, our team analyzed several publications and journals.
+A literature surey is a thorough overview of earlier studies on a subject. The literature review examines academic books, journals, and other materials that are pertinent to a particular field of study. For the project, our team analyzed several publications and journals.
 
 - [Literature Survey](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Literature%20Survey-SL.pdf)
 
