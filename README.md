@@ -47,6 +47,14 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 - Numpy
 - Scikit learn
 
+*Performance Testing*
+
+-Gatling
+
+*Load Testing*
+
+-Locust
+
 ## Assignments
 
 - [Pranava Kailash S P](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/tree/main/Assignments/Team%20Lead%20-%20Pranava%20Kailash)
