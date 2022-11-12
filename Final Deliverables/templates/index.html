@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMART LENDER</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+
+        html {
+            user-select: none;
+        }
+
+        body {
+            margin-top: 5%;
+            color: white;
+        }
+
+        html {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(static/loan.jpeg);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 45px;
+            font-family: "Aref Ruqaa Ink", serif;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-family: "Antic Slab", serif;
+        }
+
+        h6 {
+            font-size: 20px;
+            font-family: "Antic Slab", serif;
+        }
+
+        /* ~~~~~~~ BUTTON ~~~~~~~ */
+
+        .container,
+        .container:before,
+        .container:after {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font: 300 1em/1.5 "Open Sans", "Helvetica Neue", Arial, sans-serif;
+            text-decoration: none;
+            color: #111;
+        }
+
+        .btn {
+            background: rgba(236, 240, 241, 0.425);
+        }
+
+        .container {
+            min-width: 500px;
+            margin: 5% auto;
+            text-align: center;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        button {
+            background: transparent;
+            outline: none;
+            position: relative;
+            border: 3px solid #FCDDB0;
+            padding: 15px 50px;
+            overflow: hidden;
+        }
+
+        /*button:before (attr data-hover)*/
+        button:hover:before {
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+
+        button:before {
+            content: attr(data-hover);
+            position: absolute;
+            top: 1.1em;
+            left: 0;
+            width: 100%;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 800;
+            font-size: 0.8em;
+            opacity: 0;
+            transform: translate(-100%, 0);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /*button div (button text before hover)*/
+        button:hover div {
+            opacity: 0;
+            transform: translate(100%, 0);
+        }
+
+        button div {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 800;
+            font-size: 0.8em;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /*--- Footer ---*/
+
+        .footer {
+            margin-top: 10px;
+        }
+
+        .nav-link {
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 20px 0px;
+
+
+            display: inline-block;
+            position: relative;
+            opacity: 0.75;
+        }
+
+        #d {
+            margin-top: -40px;
+            font-family: "EB Garamond", serif;
+            letter-spacing: 0.5px;
+        }
+
+        #p {
+            margin-top: -50px;
+            font-family: "EB Garamond", serif;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-link:hover {
+            opacity: 1;
+        }
+
+        .nav-link::before {
+            transition: 300ms;
+            height: 3px;
+            content: "";
+            position: absolute;
+            background-color: #FCDDB0;
+        }
+
+        .nav-link-fade-up::before {
+            width: 100%;
+            bottom: 5px;
+            opacity: 0;
+        }
+
+        .nav-link-fade-up:hover::before {
+            bottom: 10px;
+            opacity: 1;
+        }
+
+        p {
+            color: white;
+            font-family: "Aref Ruqaa Ink", serif;
+            letter-spacing: 0.5px;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+            border-radius: 10px;
+            visibility: hidden;
+            width: 100px;
+            color: #fff;
+            right: 28vh;
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+        }
+
+
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+        .tooltip1 {
+            position: relative;
+            display: inline-block;
+            /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip1 .tooltiptext1 {
+            border-radius: 10px;
+            visibility: hidden;
+            width: 100px;
+            color: #fff;
+            text-align: center;
+            left: 28vh;
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+        }
+
+
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip1:hover .tooltiptext1 {
+            visibility: visible;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+
+            html {
+                width: 100% !important;
+            }
+
+            body {
+                margin-top: 110px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h3 {
+                font-size: 15px;
+            }
+
+            .container {
+                min-width: 200px;
+            }
+
+            .btn {
+                margin-right: 2vh;
+            }
+
+            #d {
+                letter-spacing: 0px;
+                font-size: 14px;
+            }
+
+            #p {
+                letter-spacing: 0px;
+                font-size: 14px;
+            }
+
+            .footer {
+                margin-top: 15vh;
+            }
+
+            .tooltip .tooltiptext {
+                display: none;
+            }
+
+            .tooltip1 .tooltiptext1 {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <center>
+            <h1>Smart Lender</h1>
+            <h3>Get to know your applicant application will get accepted or not</h3>
+            <h6>
+                Click the <em><b> Predict </b></em> button and update the details to
+                know the prediction for the applicant.
+            </h6>
+
+            <div class="container">
+                <a href="predict.html">
+                    <button style="color: #ffffff ;" class="btn" data-hover="Loan Predictor" onclick="predict.html">
+                        <div>Predict</div>
+                    </button>
+                </a>
+            </div>
+
+            <footer>
+                <div class="footer">
+                    <p>Developed by:-</p>
+                    <br />
+                    <div class="tooltip"><a id="d" class="nav-link nav-link-fade-up"
+                            href="https://www.linkedin.com/in/dharshana-ramesh-2aa0671ab/" target="_blank">Dharshana
+                            Ramesh
+                        </a>
+                        <img src="static\d.jpg" class="tooltiptext">
+                    </div>
+
+
+                    <span style="font-family: 'EB Garamond', serif">
+                        &nbsp; & &nbsp;</span>
+
+                    <div class="tooltip1"><a id="p" class="nav-link nav-link-fade-up"
+                            href="https://www.linkedin.com/in/pranava-kailash/" target="_blank">
+                            Pranava Kailash S P</a>
+                        <img src="static\pk.jpg" class="tooltiptext1">
+                    </div>
+
+                </div>
+            </footer>
+        </center>
+    </main>
+</body>
+
+</html>
