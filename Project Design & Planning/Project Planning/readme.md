@@ -26,4 +26,8 @@ You must provide the units of effort for each activity and the length of each in
 
 Project planning is a form of gradual, iterative project management. Agile allows for need modifications during the project and depends on ongoing feedback from end users rather than beginning with a detailed plan that is often product-related.
 
+### Sprint
+
+A sprint is a predetermined time frame during which a certain amount of work must be finished and prepared for review.
+
 - [Project Planning](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Design%20%26%20Planning/Project%20Planning/Project%20Planning.pdf)
