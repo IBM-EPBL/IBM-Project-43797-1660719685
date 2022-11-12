@@ -1,7 +1,5 @@
 # SMART LENDER - Applicant Credibility Prediction For Loan Approval
 
-![Loan](https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2019/08/gettyimages-1050881944-612x612-e1565718161876.jpg)
-
 ## SPRINT 1
 
 ### Sprint
