@@ -39,15 +39,13 @@ We have integrated HTML, CSS & JS to create a website UI
 
 Web application developers can write applications without having to be concerned about low-level details like protocol, thread management, and other issues thanks to a web framework, also known as a web application framework.
 
-### Flask
+### Flask & Cloud deployement
  
 Python is used to create the Flask web application framework. It was created by Armin Ronacher, who served as the team leader of Poocco, a worldwide group of Python aficionados. The Werkzeg WSGI toolkit and the Jinja2 template engine serve as the foundation for Flask. They're both Pocco projects. Its core is compact and simple to expand.
 
-- [Python Flask file](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/ibm_app.py)
+- [Cloud & Web UI Integeration](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/ibm_app.py)
 
-### Model Building
-
-- [Build Model Jupyter Notebook](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/Model_building_SL.ipynb)
+- [Cloud Integeration Python Flask](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/Model_building_SL.ipynb)
 
 ### Final output video
 
@@ -57,5 +55,4 @@ Python is used to create the Flask web application framework. It was created by 
 
 Pickle is primarily used in Python to serialise and deserialize Python object structures. To put it another way, it is the procedure of converting a Python object into a byte stream so that it can be stored in a file or database, have its state preserved across sessions, or be used to transfer data over a network.
 
-- [The trained model](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%203/rdf.pkl)
 - [Maxabs Scaler](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%203/scale.pkl)
