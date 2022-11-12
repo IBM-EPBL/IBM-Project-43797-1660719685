@@ -26,11 +26,11 @@ The train/test approach is a way to gauge how accurate your model is.
 
 Because the data set is divided into two sets—a training set and a testing set—this technique is known as train/test.
 
-Using the training set, you train the model.
+Using the training set, we train the model.
 
 - [Training Dataset](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%201/train.csv)
 
-Utilizing the testing set, you test the model.
+Utilizing the testing set, we test the model.
 
 - [Testing Dataset](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%201/test.csv)
 
