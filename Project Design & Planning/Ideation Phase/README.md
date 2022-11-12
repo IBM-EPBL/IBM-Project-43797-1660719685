@@ -18,10 +18,10 @@ An issue that has to be resolved is described in depth in a customer problem sta
 ### Empathy Map Canvas
 
 Empathy maps are a straightforward, effective technique for developing knowledge of your people. Empathy, the capacity to comprehend another person's feelings and thoughts, is the name's etymological source. When grounded in actual data and used in conjunction with other mapping techniques, they can:
-- * Eliminate bias from our designs and bring the team together around a single, shared knowledge of the user
-- * Find the gaps in our study's findings
-- * Find out what the user needs—needs that the user may not even be aware of
-- * Learn what motivates user action. Point us in the direction of genuine innovation
+ * Eliminate bias from our designs and bring the team together around a single, shared knowledge of the user
+ * Find the gaps in our study's findings
+ * Find out what the user needs—needs that the user may not even be aware of
+ * Learn what motivates user action. Point us in the direction of genuine innovation
 
 - [Empathy Map Canvas](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Empathy%20Map%20Canvas.pdf)
 
