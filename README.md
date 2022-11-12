@@ -98,8 +98,8 @@ Also make sure you have the [scale.pkl](https://github.com/IBM-EPBL/IBM-Project-
 
 ## Contribution
 
-- Pranava Kailash - Model Building, Integration
-- Dharshana - Web UI, Integration
+- Pranava Kailash - Model Building, Integration, Testing
+- Dharshana - Web UI, Integration, Testing
 - Monica, Keerthana - Literature Survey, Documentation
 
 ## Authors
