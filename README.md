@@ -49,11 +49,11 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 
 *Performance Testing*
 
--Gatling
+- Gatling
 
 *Load Testing*
 
--Locust
+- Locust
 
 ## Assignments
 
