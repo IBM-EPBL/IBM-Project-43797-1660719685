@@ -45,6 +45,10 @@ Python is used to create the Flask web application framework. It was created by 
 
 - [Python Flask file](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/ibm_app.py)
 
+### Model Building
+
+- [Build Model Jupyter Notebook](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Project%20Development%20Phase/Sprint%204/Model_building_SL.ipynb)
+
 ### Final output video
 
 - [Video](https://youtu.be/MKbriqtOxZM)
