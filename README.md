@@ -4,7 +4,7 @@
 
 ## Project Details
 
-| Team ID | IBM-Project-43797-1660719685  |
+| Team ID | PNT2022TMID18010  |
 | :-------- | :------- | 
 | Domain | Applied Data Science  |
 | Project Name | SMART LENDER - Applicant Credibility Prediction For Loan Approval  |
