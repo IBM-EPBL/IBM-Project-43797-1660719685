@@ -1,0 +1,10 @@
+{
+  "simulation": "smart_lender.RecordedSimulation",
+  "simulationId": "recordedsimulation-20221112063531415",
+  "start": 1668234932772,
+  "description": "Smart Lender",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}
