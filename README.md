@@ -71,7 +71,7 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 
 ## Demo Link
 
-Soon to be added
+- [Demo Video Link](https://youtu.be/PBqfGqD0Tlc)
 
 ## Project Report
 
