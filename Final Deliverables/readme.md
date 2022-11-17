@@ -7,9 +7,9 @@
 | Domain | Applied Data Science  |
 | Project Name | SMART LENDER - Applicant Credibility Prediction For Loan Approval  |
 
-## Demo Link
+## Demonstration Video Link
 
-- [Demo Video Link](https://youtu.be/PBqfGqD0Tlc)
+- [Demonstration Video Link](https://youtu.be/PBqfGqD0Tlc)
 
 ## Project Report
 
