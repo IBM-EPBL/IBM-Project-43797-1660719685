@@ -75,7 +75,7 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 
 ## Project Report
 
-In progress
+Completed, Check Final deliverables folder 
 
 ## Running the Application
 
