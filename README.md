@@ -75,7 +75,7 @@ One of the most challenging challenges for any bank is predicting loan defaulter
 
 ## Project Report
 
-Completed, Check Final deliverables folder 
+- [Project Report](https://github.com/IBM-EPBL/IBM-Project-43797-1660719685/blob/main/Final%20Deliverables/Project%20Report.pdf)
 
 ## Running the Application
 
